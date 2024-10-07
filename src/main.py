@@ -1,5 +1,12 @@
+import pygame
+
+from game import Game
+
+pygame.init()
+
 def main():
-    return 0
+    game = Game()
+    game.run()
 
 if __name__ == "__main__":
     main()
